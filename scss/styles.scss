@@ -260,6 +260,12 @@ img {
     }
 }
 
+.home-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* BUTTONS */
 .button {
     display: inline-block;

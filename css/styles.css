@@ -249,6 +249,12 @@ img {
   gap: 1rem;
 }
 
+.home-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 .home-container .home-content {
   grid-template-columns: .5fr 3fr;
   padding-top: 1.5rem;
