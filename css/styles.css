@@ -252,7 +252,7 @@ img {
 .home-buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1rem; /* Add gap between buttons */
 }
 
 .home-container .home-content {
@@ -1046,6 +1046,11 @@ img {
   .testimonial-data,
   .testimonial-description {
     text-align: center;
+  }
+  .home-buttons {
+    flex-direction: column; /* Stack buttons vertically on small screens */
+    gap: 0.5rem; /* Adjust gap for small screens */
+    width: auto; /* Keep their size */
   }
 }
 

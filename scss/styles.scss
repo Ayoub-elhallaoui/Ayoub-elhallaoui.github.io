@@ -159,7 +159,7 @@ img {
             }
 
             &:hover {
-                color: var(--first-color);
+                color: var (--first-color);
             }
         }
 
@@ -264,6 +264,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1rem; // Add gap between buttons
 }
 
 /* BUTTONS */
@@ -548,7 +549,7 @@ img {
     .qualification-subtitle {
         display: inline-block;
         font-size: var(--small-font-size);
-        margin-bottom: var(--mb-1);
+        margin-bottom: var (--mb-1);
     }
 
     .qualification-calendar {
@@ -1011,6 +1012,12 @@ img {
     .testimonial-data,
     .testimonial-description {
         text-align: center;
+    }
+
+    .home-buttons {
+        flex-direction: column; // Stack buttons vertically on small screens
+        gap: 0.5rem; // Adjust gap for small screens
+        width: auto; // Keep their size
     }
 }
 
