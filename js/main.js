@@ -182,3 +182,35 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+/* EMAIL JS */
+function sendEmail(event) {
+  event.preventDefault(); // Prevent the default action of the link
+  let params = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    project: document.getElementById('project').value,
+    message: document.getElementById('message').value
+  };
+
+  // Validate form fields
+  if (!params.name || !params.email || !params.project || !params.message) {
+    alert('Please fill in all fields.');
+    return;
+  }
+
+  console.log('Sending email with params:', params); // Debugging step
+
+  emailjs.send('service_samue5s', 'template_4oqqr6d', params)
+    .then((response) => {
+      console.log('EmailJS response:', response); // Debugging step
+      alert('Email sent successfully!');
+    })
+    .catch((error) => {
+      console.error('EmailJS error:', error); // Debugging step
+      alert('Failed to send email. Please try again later.');
+    });
+}
+
+// Assuming you have a form with id 'contact-form'
+document.getElementById('contact-form').addEventListener('submit', sendEmail);

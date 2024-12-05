@@ -11,6 +11,19 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Emailjs -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "1PrUJLK8Vh9n21UY1",
+        });
+      })();
+    </script>
   </head>
 
   <body>
@@ -126,15 +139,15 @@
               </svg>
             </div>
             <div class="home-data">
-              <h1 class="home-data-title">Hi, I'am Ayoub</h1>
+                <h1 class="home-data-title">Boonjour, je suis Ayoub</h1>
               <h3 class="home-data-subtitle">Développeur Fullstack</h3>
               <p class="home-data-description">
-                High level experience in web design and development knowledge,
-                producing quality work.
+                Passionné par le développement web, je m'engage à créer des solutions innovantes et de qualité, en relevant chaque défi avec enthousiasme et rigueur.
               </p>
               <div class="home-buttons">
                 <a href="#contact" class="button button-flex">
-                  Envoyer un message <i class="fab fa-telegram-plane button-icon"></i>
+                  Envoyer un message
+                  <i class="fab fa-telegram-plane button-icon"></i>
                 </a>
 
                 <a
@@ -159,7 +172,7 @@
       <!-- ABOUT -->
       <section class="about section" id="about">
         <h2 class="section-title">À propos</h2>
-        <span class="section-subtitle">My introduction</span>
+        <span class="section-subtitle">Introduction</span>
 
         <div class="about-container container grid">
           <div class="about-container-img">
@@ -169,36 +182,12 @@
               class="about-container-imgAlt"
             />
           </div>
-
           <div class="about-container-data">
             <p class="about-container-data-description">
-              Web developer, withextensive knowledge years of experience,
-              working in web technologies and UI / UX design, delivering quality
-              work.
+              Passionné par la technologie, je suis étudiant en 1ère année de Master Big Data et Cloud Computing. J'ai également suivi une formation intensive en développement web, où j'ai renforcé mes compétences techniques et acquis des soft skills comme l'agilité et le travail en équipe.
             </p>
 
-            <div class="about-container-data-info">
-              <div>
-                <span class="about-container-data-info-title">08+</span>
-                <span class="about-container-data-name"
-                  >Years <br />
-                  experience</span
-                >
-              </div>
-              <div>
-                <span class="about-container-data-info-title">20+</span>
-                <span class="about-container-data-name"
-                  >Completed <br />
-                  project</span
-                >
-              </div>
-              <div>
-                <span class="about-container-data-info-title">05+</span>
-                <span class="about-container-data-name"
-                  >Companies <br />
-                  worked</span
-                >
-              </div>
+            
             </div>
             <div class="about-buttons">
               <a
@@ -226,7 +215,6 @@
                 <i class="fas fa-code skills-icon"></i>
                 <div>
                   <h1 class="skills-title">Front-End Developer</h1>
-                  <span class="skills-subtitle">More than 4 years</span>
                 </div>
                 <i class="fas fa-angle-down skills-arrow"></i>
               </div>
@@ -234,41 +222,41 @@
               <div class="skills-list grid">
                 <div class="skills-data">
                   <div class="skills-titles">
-                    <h3 class="skills-name">HTML</h3>
-                    <span class="skills-number">90%</span>
+                    <h3 class="skills-name">ReactJs</h3>
+                    <span class="skills-number"></span>
                   </div>
                   <div class="skills-bar">
-                    <span class="skills-percentage skills-html"></span>
+                    <span class="skills-percentage"></span>
                   </div>
                 </div>
 
                 <div class="skills-data">
                   <div class="skills-titles">
-                    <h3 class="skills-name">CSS</h3>
-                    <span class="skills-number">80%</span>
+                    <h3 class="skills-name">VueJs</h3>
+                    <span class="skills-number"></span>
                   </div>
                   <div class="skills-bar">
-                    <span class="skills-percentage skills-css"></span>
+                    <span class="skills-percentage"></span>
                   </div>
                 </div>
 
                 <div class="skills-data">
                   <div class="skills-titles">
-                    <h3 class="skills-name">JavaScript</h3>
-                    <span class="skills-number">60%</span>
+                    <h3 class="skills-name">TailwindCSS</h3>
+                    <span class="skills-number"></span>
                   </div>
                   <div class="skills-bar">
-                    <span class="skills-percentage skills-js"></span>
+                    <span class="skills-percentage"></span>
                   </div>
                 </div>
 
                 <div class="skills-data">
                   <div class="skills-titles">
-                    <h3 class="skills-name">React</h3>
-                    <span class="skills-number">85%</span>
+                    <h3 class="skills-name">Bootsrap</h3>
+                    <span class="skills-number"></span>
                   </div>
                   <div class="skills-bar">
-                    <span class="skills-percentage skills-react"></span>
+                    <span class="skills-percentage"></span>
                   </div>
                 </div>
               </div>
@@ -280,7 +268,6 @@
                 <i class="fas fa-server skills-icon"></i>
                 <div>
                   <h1 class="skills-title">Back-End Developer</h1>
-                  <span class="skills-subtitle">More than 2 years</span>
                 </div>
                 <i class="fas fa-angle-down skills-arrow"></i>
               </div>
@@ -288,87 +275,41 @@
               <div class="skills-list grid">
                 <div class="skills-data">
                   <div class="skills-titles">
-                    <h3 class="skills-name">PHP</h3>
-                    <span class="skills-number">80%</span>
+                    <h3 class="skills-name">PHP / Laravel</h3>
+                    <span class="skills-number"></span>
                   </div>
                   <div class="skills-bar">
-                    <span class="skills-percentage skills-php"></span>
+                    <span class="skills-percentage"></span>
                   </div>
                 </div>
 
                 <div class="skills-data">
                   <div class="skills-titles">
                     <h3 class="skills-name">Node Js</h3>
-                    <span class="skills-number">70%</span>
+                    <span class="skills-number"></span>
                   </div>
                   <div class="skills-bar">
-                    <span class="skills-percentage skills-node"></span>
+                    <span class="skills-percentage "></span>
                   </div>
                 </div>
 
                 <div class="skills-data">
                   <div class="skills-titles">
-                    <h3 class="skills-name">FireBase</h3>
-                    <span class="skills-number">90%</span>
+                    <h3 class="skills-name">MySQL</h3>
+                    <span class="skills-number"></span>
                   </div>
                   <div class="skills-bar">
-                    <span class="skills-percentage skills-firebase"></span>
+                    <span class="skills-percentage"></span>
                   </div>
                 </div>
 
                 <div class="skills-data">
                   <div class="skills-titles">
-                    <h3 class="skills-name">Python</h3>
-                    <span class="skills-number">55%</span>
+                    <h3 class="skills-name">MongoDB</h3>
+                    <span class="skills-number"></span>
                   </div>
                   <div class="skills-bar">
-                    <span class="skills-percentage skills-python"></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <!-- SKILLS 3 -->
-            <div class="skills-container-content skills-close">
-              <div class="skills-container-header">
-                <i class="fas fa-swatchbook skills-icon"></i>
-                <div>
-                  <h1 class="skills-title">Designer</h1>
-                  <span class="skills-subtitle">More than 5 years</span>
-                </div>
-                <i class="fas fa-angle-down skills-arrow"></i>
-              </div>
-
-              <div class="skills-list grid">
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skills-name">Figma</h3>
-                    <span class="skills-number">90%</span>
-                  </div>
-                  <div class="skills-bar">
-                    <span class="skills-percentage skills-figma"></span>
-                  </div>
-                </div>
-
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skills-name">Sketch</h3>
-                    <span class="skills-number">85%</span>
-                  </div>
-                  <div class="skills-bar">
-                    <span class="skills-percentage skills-sketch"></span>
-                  </div>
-                </div>
-
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skills-name">Photoshop</h3>
-                    <span class="skills-number">85%</span>
-                  </div>
-                  <div class="skills-bar">
-                    <span class="skills-percentage skills-ps"></span>
+                    <span class="skills-percentage"></span>
                   </div>
                 </div>
               </div>
@@ -409,11 +350,11 @@
               <!-- QUALIFICATION 1 -->
               <div class="qualification-data">
                 <div class="qualification-data-alt">
-                  <h3 class="qualification-title">Computer Enginner</h3>
-                  <span class="qualification-subtitle">Peru - University</span>
+                  <h3 class="qualification-title">Big Data & Cloud computing</h3>
+                  <span class="qualification-subtitle">Mohammedia - ENSET</span>
                   <div class="qualification-calendar">
                     <i class="fas fa-calendar-alt"></i>
-                    2009 - 2014
+                    2024 - 2026
                   </div>
                 </div>
                 <div>
@@ -431,8 +372,9 @@
                 </div>
 
                 <div class="qualification-data-alt">
-                  <h3 class="qualification-title">Web Design</h3>
-                  <span class="qualification-subtitle">Spain - Institute</span>
+                  <h3 class="qualification-title"> Full Stack Laravel et VueJS
+                  </h3>
+                  <span class="qualification-subtitle">Casablanca - Simplon maghreb</span>
                   <div class="qualification-calendar">
                     <i class="fas fa-calendar-alt"></i>
                     2014 - 2017
@@ -442,11 +384,11 @@
               <!-- QUALIFICATION 3 -->
               <div class="qualification-data">
                 <div class="qualification-data-alt">
-                  <h3 class="qualification-title">Web Development</h3>
-                  <span class="qualification-subtitle">Peru - Institute</span>
+                  <h3 class="qualification-title">LP en Finance et Comptabilité</h3>
+                  <span class="qualification-subtitle">Casablanca - ENCG</span>
                   <div class="qualification-calendar">
                     <i class="fas fa-calendar-alt"></i>
-                    2017 - 2019
+                    2022 - 2023
                   </div>
                 </div>
                 <div>
@@ -463,14 +405,14 @@
                   <!-- <span class="qualification-line"></span> -->
                 </div>
 
-                <div class="qualification-data-alt">
+                <!-- <div class="qualification-data-alt">
                   <h3 class="qualification-title">Master in UI/UX</h3>
                   <span class="qualification-subtitle">Peru - Institute</span>
                   <div class="qualification-calendar">
                     <i class="fas fa-calendar-alt"></i>
                     2019 - 2021
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
 
@@ -479,11 +421,12 @@
               <!-- QUALIFICATION 1 -->
               <div class="qualification-data">
                 <div class="qualification-data-alt">
-                  <h3 class="qualification-title">Software Enginner</h3>
-                  <span class="qualification-subtitle">Microsoft - Peru</span>
+                  <h3 class="qualification-title">Développeur Full-stack
+                  </h3>
+                  <span class="qualification-subtitle">Simplon - Casablanca</span>
                   <div class="qualification-calendar">
                     <i class="fas fa-calendar-alt"></i>
-                    2016 - 2018
+                    2024
                   </div>
                 </div>
                 <div>
@@ -501,16 +444,17 @@
                 </div>
 
                 <div class="qualification-data-alt">
-                  <h3 class="qualification-title">Frontend Developer</h3>
-                  <span class="qualification-subtitle">Apple Inc - Spain</span>
+                  <h3 class="qualification-title">Développeur Full-stack
+                  </h3>
+                  <span class="qualification-subtitle">Ark X Talent Factory  - Casablanca</span>
                   <div class="qualification-calendar">
                     <i class="fas fa-calendar-alt"></i>
-                    2018 - 2020
+                    2024
                   </div>
                 </div>
               </div>
               <!-- QUALIFICATION 3 -->
-              <div class="qualification-data">
+              <!-- <div class="qualification-data">
                 <div class="qualification-data-alt">
                   <h3 class="qualification-title">UI Designer</h3>
                   <span class="qualification-subtitle">Figma - Spain</span>
@@ -518,7 +462,7 @@
                     <i class="fas fa-calendar-alt"></i>
                     2017 - 2019
                   </div>
-                </div>
+                </div> -->
                 <div>
                   <span class="qualification-rounder"></span>
                   <!-- <span class="qualification-line"></span> -->
@@ -632,8 +576,8 @@
             <div>
               <i class="fas fa-pencil-alt services-icon"></i>
               <h3 class="services-title">
-                Branding<br />
-                Designer
+                Banckend<br />
+                Developer
               </h3>
             </div>
 
@@ -691,10 +635,9 @@
                 class="portfolio-img"
               />
               <div class="portfolio-data">
-                <h3 class="portfolio-title">Modern Website</h3>
+                <h3 class="portfolio-title">Blog Website</h3>
                 <p class="portfolio-description">
-                  Website adaptable to all devices, with ui components and
-                  animated interactions.
+                    Site web de blog avec rôles d'administrateur et de gestionnaire, incluant une fonctionnalité de validation des posts.
                 </p>
                 <a
                   href="#"
@@ -787,44 +730,63 @@
 
               <div>
                 <h3 class="contact-title">Location</h3>
-                <span class="contact-subtitle"
-                  >Maroc - Casablanca</span
-                >
+                <span class="contact-subtitle">Maroc - Casablanca</span>
               </div>
             </div>
           </div>
 
-          <form action="" class="contact-form grid">
+          <form action="" class="contact-form grid" id="contact-form">
             <div class="contact-inputs grid">
               <div class="contact-content">
                 <label for="" class="contact-label">Name</label>
-                <input type="text" class="contact-input" />
+                <input
+                  type="text"
+                  class="contact-input"
+                  id="name"
+                  name="name"
+                  required
+                />
               </div>
               <div class="contact-content">
                 <label for="" class="contact-label">Email</label>
-                <input type="email" class="contact-input" />
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  class="contact-input"
+                  required
+                />
               </div>
             </div>
-            <div class="grid">
+            <div class="grid" id="contact-content">
               <div class="contact-content">
                 <label for="" class="contact-label">Project</label>
-                <input type="text" class="contact-input" />
+                <input
+                  type="text"
+                  class="contact-input"
+                  id="project"
+                  name="project"
+                />
               </div>
               <div class="contact-content">
-                <label for="" class="contact-label">Message</label>
+                <label for="message" class="contact-label">Message</label>
                 <textarea
+                  name="message"
+                  id="message"
                   style="resize: none"
                   rows="5"
                   class="contact-input"
+                  required
                 ></textarea>
               </div>
             </div>
+            <div class="contact-button">
+              <a href="#" id="submit" class="button button-flex" onclick="sendEmail(event)">
+                Envoyer <i class="fab fa-telegram-plane button-icon"></i>
+              </a>
+            </div>
           </form>
-          <div class="contact-button">
-            <a href="#" class="button button-flex">
-              Envoyer <i class="fab fa-telegram-plane button-icon"></i>
-            </a>
-          </div>
+
         </div>
       </section>
     </main>
@@ -850,7 +812,10 @@
             </li>
           </ul>
           <div class="footer-socials">
-            <a href="https://www.linkedin.com/in/elhallaoui-ayoub/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/elhallaoui-ayoub/"
+              target="_blank"
+            >
               <i class="fab fa-linkedin footer-social"></i>
             </a>
             <a href="https://x.com/Ayoub1elh" target="_blank">
@@ -878,6 +843,12 @@
 
     <!-- SWIPER JS -->
     <script src="js/swiper-bundle.js"></script>
+
+    <!-- EMAIL JS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
 
     <!-- MAIN JS -->
     <script src="js/main.js"></script>
